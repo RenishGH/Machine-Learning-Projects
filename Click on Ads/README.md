@@ -10,14 +10,9 @@ This repository contains a machine learning project focused on predicting whethe
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
----
 
 ## Introduction
 
@@ -46,11 +41,6 @@ The dataset used in this project includes various features related to users and 
 - **Contextual Information**: Time of day, device type, website category, etc.
 - **Target Variable**: A binary label indicating whether the ad was clicked (1) or not (0).
 
-> Example:  
-> "The dataset `advertising.csv` was obtained from [Kaggle/UCI/Internal Source].  
-> It contains X rows and Y columns with features such as `Daily Time Spent on Site`, `Age`, `Area Income`, `Daily Internet Usage`, `Ad Topic Line`, `City`, `Male`, `Country`, `Timestamp`, and `Clicked on Ad`."
-
----
 
 ## Methodology
 
@@ -63,11 +53,6 @@ This project uses supervised machine learning for binary classification. Common 
 - Support Vector Machines (SVM)
 - Neural Networks
 
-> Example implementation:  
-> "We explored multiple classification algorithms, including Logistic Regression, Random Forest, and Gradient Boosting. After hyperparameter tuning, the Random Forest Classifier achieved the highest performance.  
-> Data preprocessing included handling missing values, one-hot encoding categorical features, and scaling numerical values."
-
----
 
 ## Technologies Used
 
@@ -82,26 +67,16 @@ This project uses supervised machine learning for binary classification. Common 
 
 ---
 
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/ads-click-prediction.git
-cd ads-click-prediction
-
-# (Optional) Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-
-Results
+## Results
 The model achieved the following results (example):
 Accuracy: 91%
+
 Precision: 88%
+
 Recall: 86%
+
 F1-score: 87%
+
 AUC-ROC: 0.92
+
 Visualizations of model performance, feature importance, and confusion matrix are included in the notebook.
